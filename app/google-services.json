@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "866154439842",
+    "project_id": "messenger-5a903",
+    "storage_bucket": "messenger-5a903.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866154439842:android:1ce52450ee1cddf7da23fb",
+        "android_client_info": {
+          "package_name": "com.example.messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866154439842-mj982in5frsltciq85bmv69qcc1pg1oh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOsgDmD_8YukewuIJ526v6TExbub_O1X4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866154439842-mj982in5frsltciq85bmv69qcc1pg1oh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866154439842:android:b3defa84d37a8ff4da23fb",
+        "android_client_info": {
+          "package_name": "ph.umak.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866154439842-mj982in5frsltciq85bmv69qcc1pg1oh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOsgDmD_8YukewuIJ526v6TExbub_O1X4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866154439842-mj982in5frsltciq85bmv69qcc1pg1oh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

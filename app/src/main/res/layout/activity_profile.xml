@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/dark_gray"
+              tools:context=".ProfileActivity">
+
+    <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/dark_blue"
+            android:theme="?attr/actionBarTheme"
+            android:minHeight="?attr/actionBarSize"
+            android:id="@+id/toolbar">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profileImageViewProfile"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/default_img"/>
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:gravity="center"
+                          android:orientation="vertical"
+                          android:layout_marginLeft="10dp">
+
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          style="@style/ChatApp.TextAppearance.Small.Light"
+                          android:textStyle="bold"
+                          android:id="@+id/nameTextViewProfile"
+                          android:textAllCaps="true"
+                          android:text="@string/name"/>
+
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          style="@style/ChatApp.TextAppearance.Small.Light"
+                          android:textSize="12sp"
+                          android:textColor="@color/orange"
+                          android:id="@+id/emailTextViewProfile"
+                          android:text="\@email.com"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="30dp"
+                  android:orientation="vertical">
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="@style/ChatApp.TextAppearance.Small.Light"
+                  android:textSize="12sp"
+                  android:text="@string/name"/>
+
+        <EditText android:layout_width="match_parent"
+                  android:hint="@string/firstName"
+                  android:id="@+id/firstNameEditTextProfile"
+                  android:layout_marginTop="10dp"
+                  style="@style/ChatApp.EditText.Round.Bordered.Transparent"/>
+
+        <EditText android:layout_width="match_parent"
+                  android:hint="@string/lastName"
+                  android:layout_marginTop="10dp"
+                  android:id="@+id/lastNameEditTextProfile"
+                  style="@style/ChatApp.EditText.Round.Bordered.Transparent"/>
+
+        <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/update"
+                style="@style/ChatApp.Button.Round.Orange"
+                android:id="@+id/updateButtonProfile"
+                android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        tools:context=".EmailVerificationActivity">
+
+    <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_blue"
+            android:theme="?attr/actionBarTheme"
+            android:minHeight="?attr/actionBarSize"
+            app:menu="@menu/email_verification_menu"
+            android:id="@+id/toolbarEmailVerification">
+
+        <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/logo"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="30dp"
+                  android:background="@color/dark_blue"
+                  android:orientation="vertical">
+
+        <TextView
+                android:text="@string/verify_your_email"
+                style="@style/ChatApp.TextAppearance.Medium.Light"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="75dp"
+                android:layout_height="75dp" app:srcCompat="@drawable/mail_open" android:id="@+id/imageView2"/>
+
+        <TextView
+                android:id="@+id/captionTextViewEmailVerification"
+                style="@style/ChatApp.TextAppearance.Small.Light"
+                android:text="@string/verify_your_email_desc"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" tools:ignore="RtlCompat"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:id="@+id/statusTextViewEmailVerification"
+                  style="@style/ChatApp.TextAppearance.Small.Light"
+                  android:textSize="12sp"
+                  android:gravity="center"
+                  android:textColor="@color/orange"
+                  android:layout_marginTop="10dp"
+                  android:text="@string/email_status"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                    android:gravity="center|bottom"
+                  android:layout_marginBottom="10dp"
+                  android:orientation="horizontal">
+
+        <TextView
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="@string/resend"
+                style="@style/ChatApp.TextAppearance.Small.Light"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/resendTextViewEmailVerification"
+        android:layout_marginRight="10dp"/>
+
+        <TextView
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="@string/reload"
+                android:textAppearance="@style/ChatApp.TextAppearance.Small.Light"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@color/orange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/reloadTextViewEmailVerification"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+
+    <TextView
+            android:text="\@jlbdumayas"
+            android:paddingLeft="16dp"
+            android:gravity="end"
+            style="@style/ChatApp.TextAppearance.Small.Light"
+            android:textSize="12sp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailTextViewToChatItem"/>
+
+    <EditText
+            android:gravity="end"
+            android:text="Hello World!"
+            style="@style/ChatApp.EditText.Round.Transparent"
+            android:textAppearance="@style/ChatApp.TextAppearance.Small.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/messageTextViewToChatItem"/>
+</LinearLayout>

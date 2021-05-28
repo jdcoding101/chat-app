@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ChatApp" parent="Theme.AppCompat.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="ChatApp.Button.Round.Blue" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/round_shape_blue</item>
+    </style>
+
+    <style name="ChatApp.Button.Round.Orange" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/round_shape_orange</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="ChatApp.EditText.Round.Bordered.Transparent" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/round_shape_bordered</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:textAppearance">@style/ChatApp.TextAppearance.Small.Light</item>
+    </style>
+
+    <style name="ChatApp.EditText.Round.Transparent" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/round_shape</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:textAppearance">@style/ChatApp.TextAppearance.Small.Light</item>
+    </style>
+
+    <style name="ChatApp.TextAppearance.Small.Light" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/light</item>
+    </style>
+
+    <style name="ChatApp.TextAppearance.Medium.Light" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/light</item>
+    </style>
+
+    <style name="ChatApp.TextAppearance.Large.Light" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textColor">@color/light</item>
+    </style>
+
+    <style name="ChatApp.TextAppearance.Large.Bold.Light" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textColor">@color/light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Chat App</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up_desc">Are you a new user?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="here">here.</string>
+    <string name="username">Username</string>
+    <string name="firstName">First Name</string>
+    <string name="full_name">Full Name</string>
+    <string name="name">Name</string>
+    <string name="login_desc">Already have an account?</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="lastName">Last Name</string>
+    <string name="credentials">Credentials</string>
+    <string name="logout">Logout</string>
+    <string name="chats">Chats</string>
+    <string name="your_friends">Your Friends</string>
+    <string name="type_something">Type something</string>
+    <string name="update">Update</string>
+    <string name="verify_your_email">Verify your email address</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="change_email">Update Email Address</string>
+    <string name="reload">Reload</string>
+    <string name="reload_desc">Press reload button if you already verify your email address.</string>
+    <string name="resend">Resend link</string>
+    <string name="user_no">0 Users</string>
+    <string name="verify_your_email_desc">Hi User! Thank you for signing up to Chat App. Verify your email address to
+        complete your registration. We sent an email verification link to
+    </string>
+    <string name="email_status">status: email not yet verified</string>
+    <string name="new_email">New Email Address</string>
+    <string name="update_email_desc">Use an existing email address for email verification. Once verified, email address
+        cannot be changed.
+    </string>
+    <string name="update_email">Update Email Address</string>
+    <string name="profile">Profile</string>
+    <string name="send_reset_password_email">Send a reset password email.</string>
+    <string name="send">Send</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/dark_gray"
+        tools:context=".UpdateEmailActivity">
+
+    <LinearLayout
+            android:layout_margin="30dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:text="@string/update_email"
+                android:layout_width="match_parent"
+                style="@style/ChatApp.TextAppearance.Medium.Light"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:text="@string/update_email_desc"
+                android:layout_width="match_parent"
+                style="@style/ChatApp.TextAppearance.Small.Light"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:textColor="@color/orange"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:text="Current email: mail@email.com"
+                android:id="@+id/currentEmailTextViewUpdateEmail"
+                android:layout_width="match_parent"
+                style="@style/ChatApp.TextAppearance.Small.Light"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"/>
+
+        <EditText
+                android:layout_marginTop="10dp"
+                style="@style/ChatApp.EditText.Round.Bordered.Transparent"
+                android:layout_width="match_parent"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/new_email"
+                android:ems="10"
+                android:id="@+id/newEmailEditTextUpdateEmail"/>
+
+        <EditText
+                style="@style/ChatApp.EditText.Round.Bordered.Transparent"
+                android:layout_width="match_parent"
+                android:inputType="textPassword"
+                android:hint="@string/confirm_password"
+                android:ems="10"
+                android:id="@+id/confirmPasswordEditTextUpdateEmail"/>
+        <Button
+                android:layout_marginTop="10dp"
+                style="@style/ChatApp.Button.Round.Orange"
+                android:text="@string/update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/updateButtonUpdateEmail"/>
+    </LinearLayout>
+</LinearLayout>
